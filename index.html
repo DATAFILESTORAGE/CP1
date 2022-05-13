@@ -3,114 +3,19 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BBMEDIA</title>
     <link rel="icon" type="image/png" href="logo-1.png">
     <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <style>
-        html,
-        body {
-            background-color: #473055;
-            margin: 0;
-            position: fixed;
-            height: 100%;
-            width: 100%;
-        }
-
-        main {
-            height: 100%;
-            width: 80%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            color: #212121;
-            margin: auto;
-        }
-
-        img {
-            width: 90%;
-            margin-bottom: 30px;
-        }
-
-        p,
-        small,
-        h2,
-        a {
-            text-align: center;
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            color: #F0CF65;
-        }
-
-        a {
-            color: #F0CF65;
-            text-decoration: underline;
-        }
-
-        small.slogan {
-            color: #F0CF65;
-        }
-
-        small.slogan+h2 {
-            color: rgb(96, 30, 81);
-        }
-
-        footer {
-            bottom: 0;
-        }
-
-        ul {
-            display: flex;
-            align-items: center;
-        }
-
-        li {
-            list-style: none;
-            margin-right: 20px;
-        }
-
-        li a {
-            transition: .22s;
-            text-decoration: none;
-        }
-
-        li a:hover,
-        li a:hover span::before {
-            color: rgb(99, 42, 85) !important;
-        }
-
-        li a span::before {
-            transition: .22s;
-            color: #212121 !important;
-            font-size: 20pt;
-        }
-
-        @media (min-width: 768px) {
-            img {
-                width: 400px;
-                margin-bottom: 30px;
-            }
-
-            .md:fixed-right {
-                position: fixed;
-                width: 100%;
-                display: flex;
-                justify-content: flex-end;
-                right: 0;
-            }
-
-            main {
-                width: 100%;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <main>
         <img src="logo-1.png" alt="logo" />
-        <!-- <small class="slogan">We make it happen! We are Kutena!</small> -->
         <h2> We are working on
             something awesome. Stay tuned!</h2>
         <p>
@@ -119,24 +24,7 @@
             <br />
             Chat with us, send an email to <a href="mailto:sales@bbmedia.ae">sales@bbmedia.ae</a>
         </p>
-
-        <!-- <footer class="md:fixed-right">
-            <ul>
-                <li>
-                    <a href="">
-                        <span class="icon-github"></span>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <span class="icon-facebook"></span>
-                    </a>
-                </li>
-            </ul>
-        </footer> -->
-
     </main>
 </body>
-
 
 </html>
